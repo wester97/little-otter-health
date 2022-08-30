@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/little-otter-health/static/css/main.3c4ad02a.css",
+    "main.js": "/little-otter-health/static/js/main.c4fbb9ad.js",
+    "static/js/787.29a94b45.chunk.js": "/little-otter-health/static/js/787.29a94b45.chunk.js",
+    "index.html": "/little-otter-health/index.html",
+    "main.3c4ad02a.css.map": "/little-otter-health/static/css/main.3c4ad02a.css.map",
+    "main.c4fbb9ad.js.map": "/little-otter-health/static/js/main.c4fbb9ad.js.map",
+    "787.29a94b45.chunk.js.map": "/little-otter-health/static/js/787.29a94b45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c4ad02a.css",
+    "static/js/main.c4fbb9ad.js"
+  ]
+}
