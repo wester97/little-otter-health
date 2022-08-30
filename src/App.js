@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Dashboard from './components/Dashboard';
+import TopBar from './components/TopBar';
+
+const settings = {
+  app: {
+    name: 'Little Otter Health',
+  },
+  api: {
+    url: 'https://lo-interview.s3.us-west-2.amazonaws.com/trips.json',
+  }
+};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopBar title={settings.app.name}>
+        Project by: Wes Wilke
+      </TopBar>
+      <Dashboard settings={settings} />
     </div>
   );
 }
